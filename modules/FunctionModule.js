@@ -19,8 +19,8 @@ const kelToFhar = (kel) => {
   return message;
 };
 
-const fharTokel = (kel) => {
-    var fTemp = kel;
+const fharTokel = (fhar) => {
+    var fTemp = fhar;
     var fharToKel = ((fTemp-32)/1.8)+273.15;;
     var message = fTemp + "\xB0F is " + fharToKel + "\xB0K.";
     return message;
